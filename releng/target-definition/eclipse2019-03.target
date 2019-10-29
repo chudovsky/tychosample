@@ -11,5 +11,14 @@
 			<repository location="http://download.eclipse.org/releases/2019-06"/>
 			<unit id="org.eclipse.equinox.sdk.feature.group" version="3.18.0.v20190528-1257"/>
 		</location>
+		<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+			<repository location="https://download.eclipse.org/tools/orbit/downloads/drops/R20190827152740/repository"/>
+			<unit id="org.hamcrest" version="1.1.0.v20090501071000"/>
+			<unit id="org.hamcrest.text" version="1.1.0.v20090501071000"/>
+			<unit id="org.junit" version="4.12.0.v201504281640"/>
+			<unit id="org.junit.source" version="4.12.0.v201504281640"/>
+			<unit id="org.mockito" version="1.9.5.v201605172210"/>
+			<unit id="org.mockito.source" version="1.9.5.v201605172210"/>
+		</location>
 	</locations>
 </target>
