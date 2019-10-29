@@ -13,5 +13,6 @@
 
     <modules>
         <module>com.chudovsky.tycho.update</module>
+        <module>com.chudovsky.tycho.product</module>
     </modules>
 </project>
