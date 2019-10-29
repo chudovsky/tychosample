@@ -4,13 +4,13 @@
     <artifactId>com.chudovsky.tycho.configuration</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-    
+
     <properties>
         <tycho.version>1.4.0</tycho.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <mars-repo.url>http://download.eclipse.org/releases/mars</mars-repo.url>
     </properties>
-    
+
     <!-- Repositories should be commented out to only use the target definition 
     <repositories>
         <repository>
@@ -20,48 +20,58 @@
         </repository>
     </repositories>
     -->
-    
+
     <build>
         <plugins>
-        <plugin>
-        <groupId>org.eclipse.tycho</groupId>
-        <artifactId>tycho-maven-plugin</artifactId>
-        <version>${tycho.version}</version>
-        <extensions>true</extensions>
-        </plugin>
-    
-        <plugin>
-        <groupId>org.eclipse.tycho</groupId>
-        <artifactId>target-platform-configuration</artifactId>
-        <version>${tycho.version}</version>
-        <configuration>
-        <target> 
-            <artifact>
-                <groupId>com.chudovsky.tycho</groupId>
-                <artifactId>eclipse2019-03</artifactId>
-                <version>1.0.0-SNAPSHOT</version>
-            </artifact>
-        </target>
-    
-        <environments>
-            <environment>
-            <os>linux</os>
-            <ws>gtk</ws>
-            <arch>x86_64</arch>
-            </environment>
-            <environment>
-            <os>win32</os>
-            <ws>win32</ws>
-            <arch>x86_64</arch>
-            </environment>
-            <environment>
-            <os>macosx</os>
-            <ws>cocoa</ws>
-            <arch>x86_64</arch>
-            </environment>
-        </environments>
-        </configuration>
-        </plugin>
+            <plugin>
+                <groupId>org.eclipse.tycho</groupId>
+                <artifactId>tycho-maven-plugin</artifactId>
+                <version>${tycho.version}</version>
+                <extensions>true</extensions>
+            </plugin>
+
+            <plugin>
+                <groupId>org.eclipse.tycho</groupId>
+                <artifactId>target-platform-configuration</artifactId>
+                <version>${tycho.version}</version>
+                <configuration>
+                    <target>
+                        <artifact>
+                            <groupId>com.chudovsky.tycho</groupId>
+                            <artifactId>eclipse2019-03</artifactId>
+                            <version>1.0.0-SNAPSHOT</version>
+                        </artifact>
+                    </target>
+
+                    <dependency-resolution>
+                        <extraRequirements>
+                            <requirement>
+                                <type>eclipse-plugin</type>
+                                <id>org.eclipse.equinox.event</id>
+                                <versionRange>0.0.0</versionRange>
+                            </requirement>
+                        </extraRequirements>
+                    </dependency-resolution>
+
+                    <environments>
+                        <environment>
+                            <os>linux</os>
+                            <ws>gtk</ws>
+                            <arch>x86_64</arch>
+                        </environment>
+                        <environment>
+                            <os>win32</os>
+                            <ws>win32</ws>
+                            <arch>x86_64</arch>
+                        </environment>
+                        <environment>
+                            <os>macosx</os>
+                            <ws>cocoa</ws>
+                            <arch>x86_64</arch>
+                        </environment>
+                    </environments>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 </project>
