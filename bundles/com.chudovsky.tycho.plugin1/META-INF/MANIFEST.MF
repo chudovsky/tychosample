@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Plugin1
+Bundle-SymbolicName: com.chudovsky.tycho.plugin1
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.chudovsky.tycho.plugin1.Activator
+Bundle-Vendor: CHUDOVSKY
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: com.chudovsky.tycho.plugin1
+Export-Package: com.chudovsky.tycho.plugin1
