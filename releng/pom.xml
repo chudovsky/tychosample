@@ -14,5 +14,6 @@
     <modules>
         <module>com.chudovsky.tycho.update</module>
         <module>com.chudovsky.tycho.product</module>
+        <module>target-definition</module>
     </modules>
 </project>
