@@ -1,3 +1,6 @@
+<!--
+  To enable the automatic determination of build information for your Eclipse components
+-->
 <extensions>
   <extension>
     <groupId>org.eclipse.tycho.extras</groupId>
