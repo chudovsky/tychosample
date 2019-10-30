@@ -2,6 +2,8 @@
 
 An eclipse-based product binaries with maven test project.
 
+[![Build Status](https://travis-ci.com/chudovsky/tychosample.svg?branch=master)](https://travis-ci.com/chudovsky/tychosample)
+
 ## Task
 
 1. Please create build script(s) to assemble executable Eclipse-based product binaries using maven.
