@@ -21,3 +21,10 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+bundles/com.chudovsky.tycho.plugin1/target
+features/com.chudovsky.tycho.feature/target
+releng/com.chudovsky.tycho.update/target
+bundles/com.chudovsky.tycho.plugin1/target
+releng/com.chudovsky.tycho.product/target
+bundles/com.chudovsky.tycho.rcp/target
+.vscode
