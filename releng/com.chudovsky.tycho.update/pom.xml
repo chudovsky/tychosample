@@ -3,9 +3,9 @@
     <parent>
         <groupId>com.chudovsky.tycho</groupId>
         <artifactId>com.chudovsky.tycho.releng</artifactId>
-        <version>2.0.0</version>
+        <version>3.0.0</version>
     </parent>
     <artifactId>com.chudovsky.tycho.update</artifactId>
-    <version>2.0.0</version>
+    <version>3.0.0</version>
     <packaging>eclipse-repository</packaging>
 </project>

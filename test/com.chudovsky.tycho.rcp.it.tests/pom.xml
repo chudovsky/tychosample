@@ -4,11 +4,11 @@
     <parent>
         <groupId>com.chudovsky.tycho</groupId>
         <artifactId>com.chudovsky.tycho.tests</artifactId>
-        <version>2.0.0</version>
+        <version>3.0.0</version>
     </parent>
 
     <artifactId>com.chudovsky.tycho.rcp.it.tests</artifactId>
-    <version>2.0.0</version>
+    <version>3.0.0</version>
     <packaging>eclipse-test-plugin</packaging>
 
     <build>

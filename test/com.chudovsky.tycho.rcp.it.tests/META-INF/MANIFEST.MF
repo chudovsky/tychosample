@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Tests
 Bundle-SymbolicName: com.chudovsky.tycho.rcp.it.tests
-Bundle-Version: 2.0.0
+Bundle-Version: 3.0.0
 Bundle-Vendor: CHUDOVSKY
 Fragment-Host: com.chudovsky.tycho.plugin1;bundle-version="1.0.0"
 Automatic-Module-Name: com.chudovsky.tycho.rcp.it.tests
@@ -10,4 +10,6 @@ Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Require-Bundle: org.junit;bundle-version="4.12.0",
  org.hamcrest;bundle-version="1.1.0",
  org.eclipse.swtbot.swt.finder;bundle-version="2.8.0",
- org.eclipse.swtbot.junit4_x;bundle-version="2.8.0"
+ org.eclipse.swtbot.junit4_x;bundle-version="2.8.0",
+ org.apache.log4j;bundle-version="1.2.15"
+Eclipse-RegisterBuddy: org.apache.log4j

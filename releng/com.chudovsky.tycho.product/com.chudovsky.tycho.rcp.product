@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="com.chudovsky.tycho.rcp" uid="RCP Product" id="com.chudovsky.tycho.rcp.product" application="org.eclipse.e4.ui.workbench.swt.E4Application" version="2.0.0" useFeatures="true" includeLaunchers="true">
+<product name="com.chudovsky.tycho.rcp" uid="RCP Product" id="com.chudovsky.tycho.rcp.product" application="org.eclipse.e4.ui.workbench.swt.E4Application" version="3.0.0" useFeatures="true" includeLaunchers="true">
 
    <configIni use="default">
    </configIni>
