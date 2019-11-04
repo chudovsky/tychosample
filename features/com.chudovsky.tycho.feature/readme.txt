@@ -1,2 +1,1 @@
-bin.includes = feature.xml
-root = file:readme.txt
+sample plugin builded with tycho and maven

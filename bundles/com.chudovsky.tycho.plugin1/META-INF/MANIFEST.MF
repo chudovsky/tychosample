@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Plugin1
 Bundle-SymbolicName: com.chudovsky.tycho.plugin1
-Bundle-Version: 1.0.0.qualifier
+Bundle-Version: 2.0.0
 Bundle-Activator: com.chudovsky.tycho.plugin1.Activator
 Bundle-Vendor: CHUDOVSKY
 Require-Bundle: org.eclipse.ui,

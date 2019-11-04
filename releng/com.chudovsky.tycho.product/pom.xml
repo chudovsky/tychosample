@@ -3,13 +3,13 @@
     <parent>
         <groupId>com.chudovsky.tycho</groupId>
         <artifactId>com.chudovsky.tycho.releng</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
+        <version>2.0.0</version>
     </parent>
 
     <groupId>com.chudovsky.tycho</groupId>
     <artifactId>com.chudovsky.tycho.product</artifactId>
     <packaging>eclipse-repository</packaging>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>2.0.0</version>
 
     <build>
         <plugins>

@@ -2,7 +2,7 @@
 <feature
       id="com.chudovsky.tycho.feature"
       label="com.chudovsky.tycho.feature"
-      version="1.0.0.qualifier"
+      version="2.0.0"
       provider-name="CHUDOVSKY">
 
    <description url="https://unlicense.org/">
@@ -88,6 +88,13 @@ For more information, please refer to &lt;http://unlicense.org/&gt;
 
    <plugin
          id="com.chudovsky.tycho.plugin1"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.chudovsky.tycho.rcp"
          download-size="0"
          install-size="0"
          version="0.0.0"
