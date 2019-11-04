@@ -9,10 +9,6 @@
             application="org.eclipse.e4.ui.workbench.swt.E4Application"
             name="com.chudovsky.tycho.rcp">
          <property
-               name="lifeCycleURI"
-               value="bundleclass://com.chudovsky.tycho.rcp/com.chudovsky.tycho.rcp.E4LifeCycle">
-         </property>
-         <property
                name="applicationCSS"
                value="platform:/plugin/com.chudovsky.tycho.rcp/css/default.css">
          </property>
